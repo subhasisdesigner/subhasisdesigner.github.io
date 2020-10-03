@@ -1177,11 +1177,16 @@ h6 {
     bottom: 0;
     font-size: 12px;
 }
-.for_mobile .holder small{
-    /* float: right; */
-    font-size: 18px;
-    top: 5px;
-    right: 13px;
+.for_mobile .caret_down{
+    border-color: #065e77 transparent;
+    border-style: solid;
+    border-width: 7px 6px 0 6px;
+    width: 0;
+    right: 14px;
+    height: 0;
+    margin-left: -2px;
+    top: 50%;
+    margin-top: -2px;
     position: absolute;
 }
   .only_mobile a{width: 100%; float: left;}
