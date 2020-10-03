@@ -71,13 +71,13 @@ h6 {
   left: 0;
   right: 0;
   bottom: 0;
-  z-index: 9999;
+  z-index: 999999999999999999999999999;
   overflow: hidden;
   background: #fff;
 }
 
 #preloader:before {
-  content: "";
+  content: "Welcome";
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
