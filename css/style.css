@@ -80,7 +80,7 @@ h6 {
   content: "Welcome...";
     position: fixed;
     top: calc(50% - 30px);
-    left: calc(50% - 120px);
+    left: calc(50% - 70px);
     width: 140px;
     font-size: 25px;
     -webkit-animation: animate-preloader 1s linear infinite;
