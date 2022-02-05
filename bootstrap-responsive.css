@@ -7,13 +7,13 @@
   font-size: 28px;
   cursor: pointer;
   display: none !important;
-  line-height: 0;
+  line-height: 0 !important;
   transition: 0.5s;
 }
 
 @media (max-width: 991px) {
   .mobile-nav-toggle {
-    display: block;
+    display: block !important;
   }
 
   .navbar ul {
