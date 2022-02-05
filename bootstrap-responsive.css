@@ -15,7 +15,8 @@
   .mobile-nav-toggle {
     display: block;
   }
-
+}
+@media (min-width: 991px) {
   .navbar ul {
     display: none;
   }
