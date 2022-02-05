@@ -13,7 +13,7 @@
 
 @media (max-width: 991px) {
   .mobile-nav-toggle {
-    display: block;
+    display: block !important;
   }
 
   .navbar ul {
