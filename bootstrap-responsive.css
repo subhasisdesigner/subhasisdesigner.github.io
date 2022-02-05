@@ -55,7 +55,7 @@
   visibility: hidden;
 }
 .navbar-mobile a, .navbar-mobile a:focus {
-  padding: 10px 20px;
+  padding: 10px 20px !important;
   font-size: 15px !important;
   color: #060c22 !important;
 }
