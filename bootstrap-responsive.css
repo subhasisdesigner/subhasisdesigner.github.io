@@ -89,7 +89,7 @@
   color: var(--primary-color);
 }
 .navbar-mobile .dropdown > .dropdown-active {
-  display: block;
+  display: block !important;
 }
 
 
