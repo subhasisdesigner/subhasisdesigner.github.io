@@ -9,3 +9,106 @@
     border-right: 1px solid #ddd;
   }
 }
+@media (max-width: 992px) {
+  #header #logo img {
+    max-height: 30px;
+  }
+  .buy-tickets {
+    margin: 0 15px 0 0;
+  }
+  .top-banner_usp-lists > li {
+      margin-right: 2rem;
+  }
+}
+@media (max-width: 1366px) {
+  .navbar .dropdown .dropdown ul {
+    left: -90%;
+  }
+  .navbar .dropdown .dropdown:hover > ul {
+    left: -100%;
+  }
+}
+@media (max-width: 991px) {
+  .mobile-nav-toggle {
+    display: block;
+  }
+
+  .navbar ul {
+    display: none;
+  }
+}
+@media (min-width: 1024px) {
+  #banner {
+    background-attachment: fixed;
+  }
+}
+@media (max-width: 991px) {
+  #banner .banner-container {
+    top: 70px;
+  }
+}
+@media (max-width: 991px) {
+  #banner h1 {
+    font-size: 34px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .ol-cards{
+    padding: 1em;
+  }
+  .ol-cards li{
+    column-gap: 0em;
+    grid-template-areas:
+      'step title'
+      'content content';
+    grid-template-columns: min-content auto;
+    padding: 1em 0em;
+  }
+  .ol-cards li .title{
+    padding: 0 1em;
+    align-self: center;
+    width: auto;
+    
+  }
+  .ol-cards li .step{
+    font-size: .5em;
+  }
+  .ol-cards li .content{
+    padding: 0 1em;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .slider .buttons {
+    right: 50%;}
+}
+
+@media screen and (min-width: 900px) {
+  .slider .buttons {
+    right: 20%;}
+  .testimonial {
+    padding: 32px 0 0 0;
+    background-size: 80px;
+    background-position: 19% -7%;
+    transform: translateX(100px);
+}
+.testimonial .author span {
+  display: contents;
+}
+.testimonial blockquote {
+  font-size: 24px;
+  line-height: 30px;
+}
+  .slide {
+    position: relative;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+}
+ 
+}
+  @media (max-width: 574px) {
+  #venue .venue-info h3 {
+    font-size: 24px;
+  }
+}
