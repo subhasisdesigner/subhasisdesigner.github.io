@@ -16,9 +16,6 @@
     display: block !important;
   }
 
-  .navbar ul {
-    display: none !important;
-  }
 }
 .navbar-mobile {
   position: fixed !important;
