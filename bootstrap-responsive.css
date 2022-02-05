@@ -67,7 +67,7 @@
 }
 .navbar-mobile .dropdown ul {
   position: static !important;
-  display: none;
+  display: none !important;
   margin: 10px 20px !important;
   padding: 10px 0 !important;
   z-index: 99 !important;
