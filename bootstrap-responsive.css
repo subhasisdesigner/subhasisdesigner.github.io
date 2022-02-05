@@ -96,7 +96,7 @@
 
 @media (max-width: 992px) {
   #header #logo img {
-    max-height: 30px;
+    max-height: 30px !important;
   }
 }
 @media (max-width: 992px) {
@@ -106,10 +106,10 @@
 }
 @media (max-width: 1366px) {
   .navbar .dropdown .dropdown ul {
-    left: -90%;
+    left: -90% !important;
   }
   .navbar .dropdown .dropdown:hover > ul {
-    left: -100%;
+    left: -100% !important;
   }
 }
 
@@ -120,18 +120,18 @@
   }
 @media (min-width: 1024px) {
   #banner {
-    background-attachment: fixed;
+    background-attachment: fixed !important;
   }
 }
 @media (max-width: 991px) {
   #banner .banner-container {
-    top: 70px;
+    top: 70px !important;
   }
 }
 
 @media (max-width: 991px) {
   #banner h1 {
-    font-size: 34px;
+    font-size: 34px !important;
   }
 }
 
@@ -173,7 +173,7 @@
     padding: 32px 0 0 0;
     background-size: 80px;
     background-position: 19% -7%;
-    transform: translateX(100px);
+    transform: translateX(100px) !important;
 }
 .testimonial .author span {
   display: contents;
