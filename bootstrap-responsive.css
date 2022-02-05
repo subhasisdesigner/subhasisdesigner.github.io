@@ -13,11 +13,11 @@
 
 @media (max-width: 991px) {
   .mobile-nav-toggle {
-    display: block !important;
+    display: block;
   }
 
   .navbar ul {
-    display: none !important;
+    display: none;
   }
 }
 .navbar-mobile {
@@ -37,7 +37,7 @@
   right: 15px;
 }
 .navbar-mobile ul {
-  display: block;
+  display: block !important;
   position: absolute;
   top: 55px;
   right: 15px;
