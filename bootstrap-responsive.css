@@ -49,7 +49,7 @@
   transition: 0.3s;
 }
 .navbar-mobile > ul > li {
-  padding: 0;
+  padding: 0 !important;
 }
 .navbar-mobile a:hover:before, .navbar-mobile li:hover > a:before, .navbar-mobile .active:before {
   visibility: hidden;
