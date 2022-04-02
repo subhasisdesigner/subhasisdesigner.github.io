@@ -2,7 +2,7 @@
 /**
 * Mobile Navigation 
 */
-.mobile-nav-toggle {
+/**.mobile-nav-toggle {
   color: var(--primary-color);
   font-size: 28px;
   cursor: pointer;
@@ -205,3 +205,4 @@
     border-right: 1px solid #ddd;
   }
 }
+*/
