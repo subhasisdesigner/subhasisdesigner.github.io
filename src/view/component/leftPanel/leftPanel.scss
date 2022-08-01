@@ -37,7 +37,6 @@
         & .my_pic {
             width: $forty-five;
             height: $forty-five;
-            overflow: hidden;
             border-radius: $fifty-parents;
             object-fit: contain;
             flex-shrink: $zero;
@@ -130,6 +129,8 @@
             font-size: 0.9em;
             font-weight: $Medium;
             gap: $fifteen;
+            padding: 7px;
+            border-radius: 15px;
 
             & i {
                 @include menu-icon;
@@ -209,14 +210,14 @@
 
             & .more_app {
                 color: #2497FB;
-                display: flex;
-                align-items: center;
-                gap: 5px;
-                border-radius: 6px;
-                font-weight: 600;
-                padding: 6px 20px 6px 5px;
-                margin-right: -27px;
-                background: #c9e6ff;
+                // display: flex;
+                // align-items: center;
+                // gap: 5px;
+                // border-radius: 6px;
+                // font-weight: 600;
+                // padding: 6px 20px 6px 5px;
+                // margin-right: -27px;
+                // background: #c9e6ff;
             }
 
             & i {
@@ -272,6 +273,29 @@
     }
 }
 
+.active_arrow {
+    display: none;
+}
+
+.active_menu {
+    background-color: #ECF6FF;
+
+    & i {
+        background: white !important;
+        box-shadow: none !important;
+    }
+
+    & .active_arrow {
+        font-size: 1.3em !important;
+        padding: 5px !important;
+        background: #ECF6FF !important;
+        position: absolute;
+        right: 3px;
+        border-radius: 50% !important;
+        display: block;
+
+    }
+}
 
 
 //end bottom app bar 

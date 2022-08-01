@@ -28,7 +28,7 @@
 @mixin menu-item-flex-box {
     display: variable.$flex;
     flex-direction: column;
-    gap: variable.$thirty-five;
+    gap: variable.$thirty;
 }
 
 // box-shadow
@@ -58,6 +58,9 @@
     padding: variable.$eight;
     font-size: 1.3em;
     border-radius: variable.$ten;
+    box-shadow: 5px 9px 20px 0px rgb(112 112 112 / 29%);
+    -webkit-box-shadow: 5px 9px 20px 0px rgb(112 112 112 / 29%);
+    -moz-box-shadow: 5px 9px 20px 0px rgb(112 112 112 / 29%);
 }
 
 @mixin contactus-icon {
