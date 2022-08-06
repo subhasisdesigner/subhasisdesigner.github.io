@@ -1,6 +1,6 @@
 import React from "react";
 import LinearProgress from '@mui/material/LinearProgress';
-import UIUXdesignerPic from '../../../asset/Images/skills/ui-ux.png';
+import UIUXdesignerPic from '../../../asset/Images/skills/ux-ui.png';
 
 
 export default function UIUXdesigner() {
@@ -8,7 +8,7 @@ export default function UIUXdesigner() {
         <div className="skills_knowledge_item d_flex align_items gap_20">
             <img src={UIUXdesignerPic} />
             <div className="skills_knowledge_info flex_grow1">
-                <h3>UI & UX Designer</h3>
+                <h3>UX & UI Designer</h3>
                 <ProgressBar />
             </div>
         </div>

@@ -78,7 +78,7 @@ export default function LeftPanel(props) {
         </div>
         <div className="menu">
           <div className="profile">
-            <p>UI & UX Designer</p>
+            <p>UX & UI Designer</p>
             <h1>Subhasis Santra</h1>
           </div>
           <div className="menu_item">
