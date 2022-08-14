@@ -15,5 +15,14 @@
         color: $gray;
     }
 
+}
 
+.profile_social_media {
+    margin-top: $twenty;
+    margin-bottom: $fifteen;
+
+    & h4 {
+        color: $primery-color;
+        margin-bottom: $fifteen;
+    }
 }

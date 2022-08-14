@@ -1,0 +1,47 @@
+@import "../../../asset/Sass/index";
+
+.social_media {
+    display: $flex;
+    align-items: $align-center;
+    gap: $twenty;
+
+    & i {
+        font-size: 0.8em;
+    }
+
+    & .facebook {
+        background-color: $facebook  !important;
+        @include social-media-box-shadow;
+        color: $white  !important;
+    }
+
+    & .whatsapp {
+        background-color: $whatsapp  !important;
+        @include social-media-box-shadow;
+        color: $white  !important;
+    }
+
+    & .skype {
+        background-color: $skype  !important;
+        @include social-media-box-shadow;
+        color: $white  !important;
+    }
+
+    & .mail {
+        background-color: $mail  !important;
+        @include social-media-box-shadow;
+        color: $white  !important;
+    }
+
+    & .linkedin {
+        background-color: $linkedin  !important;
+        @include social-media-box-shadow;
+        color: $white  !important;
+    }
+
+    & .phone {
+        background-color: $phone  !important;
+        @include social-media-box-shadow;
+        color: $white  !important;
+    }
+}

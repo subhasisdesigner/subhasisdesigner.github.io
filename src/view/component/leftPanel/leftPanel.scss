@@ -50,55 +50,15 @@
     color: $primery-color;
 }
 
-
-.social_media {
+.left_panel_social_media .social_media {
     @include flex-box-center;
     margin-bottom: 95px;
-
-    & i {
-        font-size: 0.8em;
-    }
-
-    & a {
-        margin-top: $fifteen;
-    }
-
-    & .facebook {
-        background-color: $facebook  !important;
-        @include social-media-box-shadow;
-        color: $white  !important;
-    }
-
-    & .whatsapp {
-        background-color: $whatsapp  !important;
-        @include social-media-box-shadow;
-        color: $white  !important;
-    }
-
-    & .skype {
-        background-color: $skype  !important;
-        @include social-media-box-shadow;
-        color: $white  !important;
-    }
-
-    & .mail {
-        background-color: $mail  !important;
-        @include social-media-box-shadow;
-        color: $white  !important;
-    }
-
-    & .linkedin {
-        background-color: $linkedin  !important;
-        @include social-media-box-shadow;
-        color: $white  !important;
-    }
-
-    & .phone {
-        background-color: $phone  !important;
-        @include social-media-box-shadow;
-        color: $white  !important;
-    }
+    background: #B7DDFF;
+    border-radius: $twenty $five $five $twenty;
+    margin-right: -$six;
+    padding: $ten 0;
 }
+
 
 
 .menu {
