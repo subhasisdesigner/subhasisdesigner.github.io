@@ -3,7 +3,7 @@ import { LoadingContext } from "react-router-loading";
 
 import loadData from "../../Config/LoadingBar"
 import ComingSoon from "../component/comingSoon"
-export default function SkillsKnowledge() {
+export default function SkillsExperiences() {
   const [state, setState] = useState();
   const loadingContext = useContext(LoadingContext);
 

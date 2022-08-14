@@ -1,14 +1,14 @@
 import React from "react";
 import LinearProgress from '@mui/material/LinearProgress';
-import AdobeXdPic from '../../../asset/Images/skills/xd.png';
+import UIUXdesignerPic from '../../../asset/Images/skills/ux-ui.png';
 
 
-export default function AdobeXd() {
+export default function UIUXdesigner() {
     return (
-        <div className="skills_knowledge_item d_flex align_items gap_20">
-            <img src={AdobeXdPic} />
-            <div className="skills_knowledge_info flex_grow1">
-                <h3>Adobe Xd</h3>
+        <div className="skills_experiences_item d_flex align_items gap_20">
+            <img src={UIUXdesignerPic} />
+            <div className="skills_experiences_info flex_grow1">
+                <h3>UX & UI Designer</h3>
                 <ProgressBar />
             </div>
         </div>

@@ -73,7 +73,7 @@ export default function MainView(props) {
                 </NavLink>
               </CardActionArea>
               <CardActionArea className="appbar_item" color="inherit" aria-label="open drawer">
-                <NavLink exact className="skills" activeClassName="active_menu" to="/update/skills-knowledge"><i class="ri-user-settings-fill"></i></NavLink>
+                <NavLink exact className="skills" activeClassName="active_menu" to="/update/skills-experiences"><i class="ri-user-settings-fill"></i></NavLink>
               </CardActionArea>
               <CardActionArea className="appbar_item" color="inherit" aria-label="open drawer">
                 <NavLink exact className="work" activeClassName="active_menu" to="/update/work-profile"><i class="fas fa-tools"></i></NavLink>

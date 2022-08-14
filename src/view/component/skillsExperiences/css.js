@@ -1,14 +1,14 @@
 import React from "react";
 import LinearProgress from '@mui/material/LinearProgress';
-import UIUXdesignerPic from '../../../asset/Images/skills/ux-ui.png';
+import AdobeXdPic from '../../../asset/Images/skills/css.png';
 
 
-export default function UIUXdesigner() {
+export default function Css() {
     return (
-        <div className="skills_knowledge_item d_flex align_items gap_20">
-            <img src={UIUXdesignerPic} />
-            <div className="skills_knowledge_info flex_grow1">
-                <h3>UX & UI Designer</h3>
+        <div className="skills_experiences_item d_flex align_items gap_20">
+            <img src={AdobeXdPic} />
+            <div className="skills_experiences_info flex_grow1">
+                <h3>CSS 3</h3>
                 <ProgressBar />
             </div>
         </div>
@@ -32,7 +32,7 @@ function LinearProgressWithLabel(props) {
 
 function ProgressBar() {
     const [progress, setProgress] = React.useState(10);
-    const setValue = 90;
+    const setValue = 85;
     React.useEffect(() => {
         const timer = setInterval(() => {
             setProgress((oldProgress) => {

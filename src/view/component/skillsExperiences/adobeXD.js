@@ -1,14 +1,14 @@
 import React from "react";
 import LinearProgress from '@mui/material/LinearProgress';
-import AdobeXdPic from '../../../asset/Images/skills/html.png';
+import AdobeXdPic from '../../../asset/Images/skills/xd.png';
 
 
-export default function Html() {
+export default function AdobeXd() {
     return (
-        <div className="skills_knowledge_item d_flex align_items gap_20">
+        <div className="skills_experiences_item d_flex align_items gap_20">
             <img src={AdobeXdPic} />
-            <div className="skills_knowledge_info flex_grow1">
-                <h3>HTML 5</h3>
+            <div className="skills_experiences_info flex_grow1">
+                <h3>Adobe Xd</h3>
                 <ProgressBar />
             </div>
         </div>

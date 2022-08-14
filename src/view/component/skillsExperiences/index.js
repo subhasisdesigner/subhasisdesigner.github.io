@@ -5,12 +5,12 @@ import Html from "./html";
 import Css from "./css";
 import MoreSkills from "./moreSkills";
 
-import './skillsKnowledge.scss';
+import './skillsExperiences.scss';
 
 
-export default function SkillsKnowledge() {
+export default function SkillsExperiences() {
     return (
-        <div className="skills_knowledge_body">
+        <div className="skills_experiences_body">
             <AdobeXd />
             <UIUXdesigner />
             <Html />

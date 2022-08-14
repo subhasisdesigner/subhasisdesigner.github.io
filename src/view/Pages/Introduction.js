@@ -9,7 +9,7 @@ import MyProject from "../component/workProfile/myProject";
 import SenrysaTechnologiesProjects from "../component/workProfile/senrysaTechnologies";
 import TechwelfareProjects from "../component/workProfile/techwelfare";
 import Education from "../component/education";
-import SkillsKnowledge from "../component/skillsKnowledge";
+import SkillsExperiences from "../component/skillsExperiences";
 import ContactUs from "../component/contactUs";
 
 
@@ -44,8 +44,8 @@ export default function LandingPage() {
           <Grid container spacing={{ xs: 3, md: 5, md: 10 }}>
             <Grid item xs={12} sm={12} md={12} lg={6}>
               <div className="work_profile_body">
-                <h2 className="work_profile_text">Skills & Knowledge</h2>
-                <SkillsKnowledge />
+                <h2 className="work_profile_text">Skills & Experiences</h2>
+                <SkillsExperiences />
               </div>
             </Grid>
             <Grid item xs={12} sm={12} md={12} lg={6}>
