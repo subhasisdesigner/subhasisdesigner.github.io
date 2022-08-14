@@ -1,8 +1,8 @@
 import React, { useEffect, useState, useContext } from "react";
 import { LoadingContext } from "react-router-loading";
-import loadData from "../../Config/LoadingBar";
+import loadData from "../../../Config/LoadingBar";
 
-import ComingSoonPic from "../../asset/Images/coming_soon.png";
+import ComingSoonPic from "../../../asset/Images/coming_soon.png";
 
 export default function ComingSoon() {
     const [state, setState] = useState();

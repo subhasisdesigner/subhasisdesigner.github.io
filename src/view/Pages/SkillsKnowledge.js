@@ -2,8 +2,8 @@ import React, { useEffect, useState, useContext } from "react";
 import { LoadingContext } from "react-router-loading";
 
 import loadData from "../../Config/LoadingBar"
-import Education from "../component/education";
-export default function About() {
+import ComingSoon from "../component/comingSoon"
+export default function SkillsKnowledge() {
   const [state, setState] = useState();
   const loadingContext = useContext(LoadingContext);
 
@@ -20,8 +20,8 @@ export default function About() {
     loading();
   }, []);
   return (
-    <div className="App">
-      <Education />
+    <div className="content_body">
+      <ComingSoon />
     </div>
   );
 }
