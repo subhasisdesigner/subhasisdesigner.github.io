@@ -79,7 +79,7 @@ export default function MainView(props) {
                 <NavLink exact className="work" activeClassName="active_menu" to="/update/work-profile"><i class="fas fa-tools"></i></NavLink>
               </CardActionArea>
               <CardActionArea className="appbar_item" color="inherit" aria-label="open drawer">
-                <NavLink exact className="contact" activeClassName="active_menu" to="/update/contact"><i class="fas fa-id-card-alt"></i></NavLink>
+                <NavLink exact className="contact" activeClassName="active_menu" to="/update/contact"><i class="ri-contacts-fill"></i></NavLink>
               </CardActionArea>
               <CardActionArea className="appbar_item" color="inherit" onClick={handleDrawerToggle}>
                 <div className="more_app">
