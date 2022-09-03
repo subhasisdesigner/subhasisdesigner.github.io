@@ -47,7 +47,7 @@ html {
 }
 
 a {
-    color: black;
+    color: #2497FB;
     text-decoration: none;
 }
 
@@ -73,6 +73,14 @@ p {
 
 .gap_20 {
     gap: $twenty;
+}
+
+.gap_10 {
+    gap: $ten;
+}
+
+.mt_10 {
+    margin-top: $ten;
 }
 
 .gap_40 {

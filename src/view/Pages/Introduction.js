@@ -4,13 +4,15 @@ import Grid from '@mui/material/Grid';
 import "./Introduction.scss"
 import loadData from "../../Config/LoadingBar"
 import ProfilePic from "../component/profileInfo/ProfilePic";
-import ProfileInfo from "../component/profileInfo/ProfileInfo";
+import ProfileInfo from "../component/profileInfo";
 import MyProject from "../component/workProfile/myProject";
 import SenrysaTechnologiesProjects from "../component/workProfile/senrysaTechnologies";
 import TechwelfareProjects from "../component/workProfile/techwelfare";
 import Education from "../component/education";
-import SkillsExperiences from "../component/skillsExperiences";
+import SkillsList from "../component/skillsExperiences";
 import ContactUs from "../component/contactUs";
+import MoreSkills from "../component/skillsExperiences/moreSkills";
+
 
 
 export default function LandingPage() {
@@ -45,7 +47,8 @@ export default function LandingPage() {
             <Grid item xs={12} sm={12} md={12} lg={6}>
               <div className="work_profile_body">
                 <h2 className="work_profile_text">Skills & Experiences</h2>
-                <SkillsExperiences />
+                <SkillsList />
+                <MoreSkills />
               </div>
             </Grid>
             <Grid item xs={12} sm={12} md={12} lg={6}>

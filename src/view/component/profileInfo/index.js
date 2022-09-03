@@ -1,6 +1,6 @@
 import React from 'react';
 import './ProfileInfo.scss';
-import SocialMedia from './SocialMedia';
+import SocialMedia from '../socialMedia';
 
 export default function ProfileInfo() {
     return (

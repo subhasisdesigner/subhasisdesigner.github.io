@@ -1,8 +1,15 @@
 import React, { useEffect, useState, useContext } from "react";
 import { LoadingContext } from "react-router-loading";
+import Grid from '@mui/material/Grid';
 
 import loadData from "../../Config/LoadingBar"
-import ComingSoon from "../component/comingSoon"
+import ProfileInfo from "../component/profileInfo";
+import ProfilePics from "../../asset/Images/subhasis_santra.png";
+import Experiences from "../component/skillsExperiences/experiences";
+import Skills from "../component/skillsExperiences/skills";
+
+
+
 export default function SkillsExperiences() {
   const [state, setState] = useState();
   const loadingContext = useContext(LoadingContext);
@@ -21,8 +28,38 @@ export default function SkillsExperiences() {
   }, []);
   return (
     <div className="content_body">
-      <ComingSoon />
-    </div>
+      <Grid container spacing={{ xs: 3, md: 5 }}>
+        <Grid item xs={12} sm={12} md={12} lg={8} className="responsive_width_100">
+          <Grid container className="align_items">
+            <Grid item xs={12} sm={12} md={12} lg={4}>
+              <div className="profile_pic">
+                <img src={ProfilePics} />
+              </div>
+            </Grid>
+            <Grid item xs={12} sm={12} md={12} lg={8}>
+              <ProfileInfo />
+            </Grid>
+
+          </Grid>
+          <Grid container spacing={{ xs: 3, md: 5, md: 10 }}>
+            <Grid item xs={12} sm={12} md={12} lg={12}>
+              <div className="work_profile_body">
+                <h2 className="work_profile_text">Experiences</h2>
+                <Experiences />
+              </div>
+            </Grid>
+          </Grid>
+        </Grid>
+
+
+        <Grid item xs={12} sm={12} md={12} lg={4} className="responsive_width_100">
+          <div className="work_profile_body">
+            <h2 className="work_profile_text">Skills</h2>
+            <Skills />
+          </div>
+        </Grid>
+      </Grid >
+    </div >
   );
 }
 
