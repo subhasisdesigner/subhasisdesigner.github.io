@@ -48,7 +48,7 @@ export default function LandingPage() {
               <div className="work_profile_body">
                 <h2 className="work_profile_text">Skills & Experiences</h2>
                 <SkillsList />
-                <MoreSkills />
+                {/* <MoreSkills /> */}
               </div>
             </Grid>
             <Grid item xs={12} sm={12} md={12} lg={6}>

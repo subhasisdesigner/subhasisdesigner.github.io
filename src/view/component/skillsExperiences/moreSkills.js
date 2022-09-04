@@ -9,33 +9,26 @@ import JsPic from '../../../asset/Images/skills/js.png';
 import WordpressPic from '../../../asset/Images/skills/wordpress.png';
 import SassPic from '../../../asset/Images/skills/sass.png';
 
+const moreSkills = [
+    { skillsPic: PhotoshopPic, title: 'Photoshop' },
+    { skillsPic: MaterialPic, title: 'Material UI' },
+    { skillsPic: ReactPic, title: 'React js' },
+    { skillsPic: BootstrapPic, title: 'Bootstrap' },
+    { skillsPic: JsPic, title: 'javascript' },
+    { skillsPic: WordpressPic, title: 'WordPress' },
+    { skillsPic: SassPic, title: 'Sass' },
 
+]
 
 export default function MoreSkills() {
     return (
         <div className="more_skills_body d_flex align_items gap_20">
             <div className="more_skills">
-                <div className="skills_item">
-                    <img src={PhotoshopPic} title="Photoshop" />
-                </div>
-                <div className="skills_item">
-                    <img src={MaterialPic} title="Material UI" />
-                </div>
-                <div className="skills_item">
-                    <img src={ReactPic} title="React.js" />
-                </div>
-                <div className="skills_item">
-                    <img src={BootstrapPic} title="Bootstrap" />
-                </div>
-                <div className="skills_item">
-                    <img src={JsPic} title="javascript" />
-                </div>
-                <div className="skills_item">
-                    <img src={WordpressPic} title="WordPress" />
-                </div>
-                <div className="skills_item">
-                    <img src={SassPic} title="Sass" />
-                </div>
+                {moreSkills.map((moreSkills) => (
+                    <div className="skills_item">
+                        <img src={moreSkills.skillsPic} title={moreSkills.title} />
+                    </div>
+                ))}
                 <div className="skills_item">
                     <CardActionArea className="more_skills_btn">
                         <h3>25+</h3>
