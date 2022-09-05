@@ -5,7 +5,7 @@ export default function Address() {
     return (
         <div className="contact_info_body contact_address d_flex align_items gap_20">
             <div className="contact_icon">
-                <i class="ri-map-pin-fill"></i>
+                <i className="ri-map-pin-fill"></i>
             </div>
             <div className="contact_info flex_grow1">
                 <h4>Address:</h4>

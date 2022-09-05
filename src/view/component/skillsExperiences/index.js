@@ -34,10 +34,13 @@ const skillsInfo = [
 
 ];
 
-export default function SkillsList() {
+export default function SkillsList(props) {
+    const setCount = skillsInfo.slice(0, props.setCount);
+    // console.log("countssssss"(setCount))
+
     return (
         <div className="skills_experiences_body">
-            {skillsInfo.map((skillsInfo) => (
+            {setCount.map((skillsInfo) => (
                 <div className="skills_experiences_item d_flex align_items gap_20">
                     <img src={skillsInfo.img} />
                     <div className="skills_experiences_info flex_grow1">

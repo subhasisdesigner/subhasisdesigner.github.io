@@ -15,10 +15,10 @@ import MoreSkills from "../component/skillsExperiences/moreSkills";
 
 
 
+
 export default function LandingPage() {
   const [state, setState] = useState();
   const loadingContext = useContext(LoadingContext);
-
   const loading = async () => {
     //loading some data
     const data = await loadData();
@@ -47,8 +47,8 @@ export default function LandingPage() {
             <Grid item xs={12} sm={12} md={12} lg={6}>
               <div className="work_profile_body">
                 <h2 className="work_profile_text">Skills & Experiences</h2>
-                <SkillsList />
-                {/* <MoreSkills /> */}
+                <SkillsList setCount={4} />
+                <MoreSkills />
               </div>
             </Grid>
             <Grid item xs={12} sm={12} md={12} lg={6}>

@@ -66,12 +66,12 @@ export default function LeftPanel(props) {
             <h1>Subhasis Santra</h1>
           </div>
           <div className="menu_item">
-            <NavLink exact className="introduction" activeClassName="active_menu" to="/update"><i className="ri-mic-fill"></i>Introduction <i class="ri-arrow-right-line active_arrow"></i></NavLink>
-            <NavLink exact className="skills" activeClassName="active_menu" to="/update/skills-experiences"><i className="ri-user-settings-fill"></i>Skills & Experiences<i class="ri-arrow-right-line active_arrow"></i></NavLink>
+            <NavLink exact className="introduction" activeClassName="active_menu" to="/update"><i className="ri-mic-fill"></i>Introduction <i className="ri-arrow-right-line active_arrow"></i></NavLink>
+            <NavLink exact className="skills" activeClassName="active_menu" to="/update/skills-experiences"><i className="ri-user-settings-fill"></i>Skills & Experiences<i className="ri-arrow-right-line active_arrow"></i></NavLink>
             <NavLink exact className="work" activeClassName="active_menu" to="/update/work-profile"><i className="fas fa-tools"></i>Work Profile<i class="ri-arrow-right-line active_arrow"></i></NavLink>
-            <NavLink exact className="education" activeClassName="active_menu" to="/update/education"><i className="fas fa-user-graduate"></i>Education<i class="ri-arrow-right-line active_arrow"></i></NavLink>
-            {/* <NavLink exact className="professional" activeClassName="active_menu" to="/update/qualifications"><i className="fas fa-user-graduate"></i>Qualifications<i class="ri-arrow-right-line active_arrow"></i></NavLink> */}
-            <NavLink exact className="contact" activeClassName="active_menu" to="/update/contact"><i class="ri-contacts-fill"></i>Contact<i class="ri-arrow-right-line active_arrow"></i></NavLink>
+            <NavLink exact className="education" activeClassName="active_menu" to="/update/education"><i className="fas fa-user-graduate"></i>Education<i className="ri-arrow-right-line active_arrow"></i></NavLink>
+            {/* <NavLink exact className="professional" activeClassName="active_menu" to="/update/qualifications"><i className="fas fa-user-graduate"></i>Qualifications<i className="ri-arrow-right-line active_arrow"></i></NavLink> */}
+            <NavLink exact className="contact" activeClassName="active_menu" to="/update/contact"><i className="ri-contacts-fill"></i>Contact<i className="ri-arrow-right-line active_arrow"></i></NavLink>
           </div>
           <div className="copy_right">
             <i className="ri-quill-pen-fill"></i><span>Design by <strong>Subhasis Santra</strong></span>
