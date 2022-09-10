@@ -4,7 +4,7 @@ import Grid from '@mui/material/Grid';
 
 import loadData from "../../../Config/LoadingBar"
 import ProfileInfo from "../../component/profileInfo";
-import ProfilePics from "../../asset/Images/subhasis_santra.png";
+import ProfilePics from "../../../asset/Images/subhasis_santra.png";
 import Experiences from "../../component/skillsExperiences/experiences";
 import SkillsList from "../../component/skillsExperiences";
 
