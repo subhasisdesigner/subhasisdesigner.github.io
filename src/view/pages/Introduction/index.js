@@ -5,25 +5,12 @@ import "./introduction.scss"
 import loadData from "../../../Config/LoadingBar"
 import ProfilePic from "../../component/profileInfo/ProfilePic";
 import ProfileInfo from "../../component/profileInfo";
-import TechwelfareProjects from "../../component/workProfile/techwelfare";
+import ProjectProfile from "../../component/projectProfile";
+import TechwelfareProjects from "../../component/projectProfile/techwelfare";
 import Education from "../../component/education";
 import SkillsList from "../../component/skillsExperiences";
 import ContactUs from "../../component/contactUs";
 import MoreSkills from "../../component/skillsExperiences/moreSkills";
-
-import myProjectPic from "../../../asset/Images/myProject.png"
-import ndhgoPic from "../../../asset/Images/NDHGO-Logo.png"
-import { CardActionArea } from '@mui/material';
-
-const WorkProfile = [
-  {
-    companyName: "01. My project", projectImg: myProjectPic, projectName: "Subhasiswebdesigner", useLibarry: "React, HTML,SASS,SCSS, Adobe XD"
-  },
-  {
-    companyName: "02. Senrysa Technologies (P) Ltd", projectImg: ndhgoPic, projectName: "NDHGO Seller Panel", useLibarry: "React, HTML,CSS, Adobe XD"
-  }
-]
-
 
 export default function LandingPage() {
   const [state, setState] = useState();
@@ -73,21 +60,7 @@ export default function LandingPage() {
         <Grid item xs={12} sm={12} md={12} lg={4} className="responsive_width_100">
           <div className="work_profile_body">
             <h2 className="work_profile_text">Work Profile</h2>
-            {WorkProfile.map((WorkProfile) => (
-              <div className="work_profile">
-                <h4>{WorkProfile.companyName}</h4>
-                <CardActionArea className="project_body">
-                  <div className="project_pic">
-                    <img src={WorkProfile.projectImg} />
-                  </div>
-                  <div className="project_info">
-                    <h3>{WorkProfile.projectName}</h3>
-                    <p>{WorkProfile.useLibarry}</p>
-                    <span>View details</span>
-                  </div>
-                </CardActionArea>
-              </div>
-            ))}
+            <ProjectProfile setHide="home_hide" />
             <TechwelfareProjects />
           </div>
           <div className="work_profile_body mt_40">

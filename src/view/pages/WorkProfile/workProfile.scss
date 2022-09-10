@@ -1,0 +1,71 @@
+@import "../../../asset/Sass/index";
+
+.work_details_body {
+    & .work_details_item {
+        & h4 {
+            color: #2497FB;
+            margin-bottom: 10px;
+        }
+    }
+
+    & .project_profile_body {
+        background: white;
+        padding: 15px;
+        border-radius: 15px;
+        margin-bottom: 25px;
+
+        & .work_profile {
+            margin-top: 0px !important;
+        }
+
+        & .project_body {
+            box-shadow: none !important;
+        }
+    }
+
+    & .techwelfare_project_body {
+        background: white;
+        padding: 15px;
+        border-radius: 15px;
+        margin-bottom: 25px;
+
+        & .work_profile {
+            margin-top: 0px !important;
+            position: relative;
+            margin-bottom: 25px;
+        }
+
+        & .project_body {
+            box-shadow: none !important;
+
+        }
+    }
+}
+
+.techwelfare_project_body {
+    & .work_profile::after {
+        content: "";
+        height: 1px;
+        bottom: -14px;
+        width: 100%;
+        background: #efefef;
+        position: absolute;
+
+    }
+
+    & .work_profile:last-child {
+        margin-bottom: 0px;
+    }
+
+    & .work_profile:first-child {
+        margin-bottom: 0px;
+    }
+
+    & .work_profile:last-child::after {
+        content: none;
+    }
+
+    & .work_profile:first-child::after {
+        content: none;
+    }
+}

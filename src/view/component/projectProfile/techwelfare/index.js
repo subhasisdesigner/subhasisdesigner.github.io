@@ -1,11 +1,11 @@
 import React from "react";
 import './techwelfare.scss';
-import MatrimonyPic from "../../../../asset/Images/techwelfare-project/matrimony.png";
-import JobportalPic from "../../../../asset/Images/techwelfare-project/jobportal.png";
-import MindcorpPic from "../../../../asset/Images/techwelfare-project/mindcorp.png";
-import ZerokelvinPic from "../../../../asset/Images/techwelfare-project/zerokelvin.png";
-import CurrencyPic from "../../../../asset/Images/techwelfare-project/currency.png";
-import TourTravelyPic from "../../../../asset/Images/techwelfare-project/tourTravel.png";
+import MatrimonyPic from "../../../../asset/Images/techwelfare-project/full-page/matrimony.png";
+import JobportalPic from "../../../../asset/Images/techwelfare-project/full-page/jobportal.png";
+import MindcorpPic from "../../../../asset/Images/techwelfare-project/full-page/mindcorp.png";
+import ZerokelvinPic from "../../../../asset/Images/techwelfare-project/full-page/zerokelvin.png";
+import CurrencyPic from "../../../../asset/Images/techwelfare-project/full-page/currency.png";
+import TourTravelyPic from "../../../../asset/Images/techwelfare-project/full-page/tourTravel.png";
 import CardActionArea from '@mui/material/CardActionArea';
 
 const techwelfareProfile = [
@@ -16,7 +16,7 @@ const techwelfareProfile = [
     { projectImg: CurrencyPic, projectName: "Currency" },
     { projectImg: TourTravelyPic, projectName: "TourTravely" }
 ]
-export default function myProject() {
+export default function TechwelfareProject() {
     return (
         <div className="work_profile">
             <h4>03. Techwelfare </h4>
