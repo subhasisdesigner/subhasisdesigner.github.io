@@ -6,7 +6,7 @@ import loadData from "../../Config/LoadingBar"
 import ProfileInfo from "../component/profileInfo";
 import ProfilePics from "../../asset/Images/subhasis_santra.png";
 import Experiences from "../component/skillsExperiences/experiences";
-import Skills from "../component/skillsExperiences/skills";
+import SkillsList from "../component/skillsExperiences";
 
 
 
@@ -55,7 +55,7 @@ export default function SkillsExperiences() {
         <Grid item xs={12} sm={12} md={12} lg={4} className="responsive_width_100">
           <div className="work_profile_body">
             <h2 className="work_profile_text">Skills</h2>
-            <Skills />
+            <SkillsList />
           </div>
         </Grid>
       </Grid >
