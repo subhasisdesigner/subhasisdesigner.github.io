@@ -1,9 +1,10 @@
 import React, { useEffect, useState, useContext } from "react";
 import { LoadingContext } from "react-router-loading";
 
-import loadData from "../../Config/LoadingBar"
-import ComingSoon from "../component/comingSoon"
-export default function Qualifications() {
+import loadData from "../../../Config/LoadingBar"
+import ComingSoon from "../../component/comingSoon"
+import "./workProfile.scss"
+export default function WorkProfile() {
   const [state, setState] = useState();
   const loadingContext = useContext(LoadingContext);
 

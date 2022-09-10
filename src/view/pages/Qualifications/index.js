@@ -1,9 +1,10 @@
 import React, { useEffect, useState, useContext } from "react";
 import { LoadingContext } from "react-router-loading";
 
-import loadData from "../../Config/LoadingBar"
-import ComingSoon from "../component/comingSoon"
-export default function Education() {
+import loadData from "../../../Config/LoadingBar"
+import ComingSoon from "../../component/comingSoon"
+import './qualifications.scss'
+export default function Qualifications() {
   const [state, setState] = useState();
   const loadingContext = useContext(LoadingContext);
 

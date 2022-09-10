@@ -2,12 +2,13 @@ import React, { useEffect, useState, useContext } from "react";
 import { LoadingContext } from "react-router-loading";
 import Grid from '@mui/material/Grid';
 
-import loadData from "../../Config/LoadingBar"
-import ProfileInfo from "../component/profileInfo";
+import loadData from "../../../Config/LoadingBar"
+import ProfileInfo from "../../component/profileInfo";
 import ProfilePics from "../../asset/Images/subhasis_santra.png";
-import Experiences from "../component/skillsExperiences/experiences";
-import SkillsList from "../component/skillsExperiences";
+import Experiences from "../../component/skillsExperiences/experiences";
+import SkillsList from "../../component/skillsExperiences";
 
+import './skillsExperiences.scss'
 
 
 export default function SkillsExperiences() {

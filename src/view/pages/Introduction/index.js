@@ -1,18 +1,18 @@
 import React, { useEffect, useState, useContext } from "react";
 import { LoadingContext } from "react-router-loading";
 import Grid from '@mui/material/Grid';
-import "./Introduction.scss"
-import loadData from "../../Config/LoadingBar"
-import ProfilePic from "../component/profileInfo/ProfilePic";
-import ProfileInfo from "../component/profileInfo";
-import TechwelfareProjects from "../component/workProfile/techwelfare";
-import Education from "../component/education";
-import SkillsList from "../component/skillsExperiences";
-import ContactUs from "../component/contactUs";
-import MoreSkills from "../component/skillsExperiences/moreSkills";
+import "./introduction.scss"
+import loadData from "../../../Config/LoadingBar"
+import ProfilePic from "../../component/profileInfo/ProfilePic";
+import ProfileInfo from "../../component/profileInfo";
+import TechwelfareProjects from "../../component/workProfile/techwelfare";
+import Education from "../../component/education";
+import SkillsList from "../../component/skillsExperiences";
+import ContactUs from "../../component/contactUs";
+import MoreSkills from "../../component/skillsExperiences/moreSkills";
 
-import myProjectPic from "../../asset/Images/myProject.png"
-import ndhgoPic from "../../asset/Images/NDHGO-Logo.png"
+import myProjectPic from "../../../asset/Images/myProject.png"
+import ndhgoPic from "../../../asset/Images/NDHGO-Logo.png"
 import { CardActionArea } from '@mui/material';
 
 const WorkProfile = [
