@@ -8,32 +8,27 @@ import CurrencyPic from "../../../../asset/Images/techwelfare-project/currency.p
 import TourTravelyPic from "../../../../asset/Images/techwelfare-project/tourTravel.png";
 import CardActionArea from '@mui/material/CardActionArea';
 
+const techwelfareProfile = [
+    { projectImg: MatrimonyPic, projectName: "Matrimony" },
+    { projectImg: JobportalPic, projectName: "Jobportal" },
+    { projectImg: MindcorpPic, projectName: "Mindcorp" },
+    { projectImg: ZerokelvinPic, projectName: "Zerokelvin" },
+    { projectImg: CurrencyPic, projectName: "Currency" },
+    { projectImg: TourTravelyPic, projectName: "TourTravely" }
+]
 export default function myProject() {
     return (
         <div className="work_profile">
-            <h4>02. Techwelfare </h4>
+            <h4>03. Techwelfare </h4>
             <div className="techwelfare_project">
-                <div className="project_item">
-                    <img src={MatrimonyPic} />
-                </div>
-                <div className="project_item">
-                    <img src={TourTravelyPic} />
-                </div>
-                <div className="project_item">
-                    <img src={MindcorpPic} />
-                </div>
-                <div className="project_item">
-                    <img src={ZerokelvinPic} />
-                </div>
-                <div className="project_item">
-                    <img src={CurrencyPic} />
-                </div>
-                <div className="project_item">
-                    <img src={JobportalPic} />
-                </div>
+                {techwelfareProfile.map((techwelfareProfile) => (
+                    <div className="project_item">
+                        <img src={techwelfareProfile.projectImg} title={techwelfareProfile.projectName} />
+                    </div>
+                ))}
                 <div className="project_item">
                     <CardActionArea className="more_project">
-                        <h3>25+</h3>
+                        <h3>16+</h3>
                         <p>More projects</p>
                     </CardActionArea>
                 </div>

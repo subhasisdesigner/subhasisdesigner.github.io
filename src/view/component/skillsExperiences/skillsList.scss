@@ -4,9 +4,16 @@
     & .skills_experiences_item {
         margin-top: $thirty;
 
-        & .skills_experiences_info h3 {
-            margin-bottom: $ten;
-            font-size: 1.1em;
+        & .skills_experiences_info {
+            & h3 {
+                margin-bottom: $ten;
+                font-size: 1.1em;
+            }
+
+            & h5 {
+                margin-top: 5px;
+                color: #2497FB;
+            }
         }
 
         & img {

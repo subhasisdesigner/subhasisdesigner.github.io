@@ -13,24 +13,26 @@ import BootstrapPic from '../../../asset/Images/skills/bootstrap.png';
 import WordpressPic from '../../../asset/Images/skills/wordpress.png';
 import GitPic from '../../../asset/Images/skills/git.png';
 import MobileApplicationPic from '../../../asset/Images/skills/mobile_application_design.png';
+import JsPic from '../../../asset/Images/skills/js.png';
 import ResponsivePic from '../../../asset/Images/skills/responsive.png';
 
 import './skillsList.scss';
 
 const skillsInfo = [
-    { img: AdobeXdPic, skillsNames: 'AdobeXd', progressValue: 90 },
-    { img: UIUXdesignerPic, skillsNames: 'UX & UI Designer', progressValue: 90 },
-    { img: HtmlPic, skillsNames: 'HTML 5', progressValue: 90 },
-    { img: CssPic, skillsNames: 'CSS 3', progressValue: 80 },
-    { img: PhotoshopPic, skillsNames: 'Photoshop', progressValue: 70 },
-    { img: MaterialUI, skillsNames: 'Material UI', progressValue: 80 },
-    { img: ReactPic, skillsNames: 'React', progressValue: 75 },
-    { img: SassPic, skillsNames: 'Sass', progressValue: 80 },
-    { img: BootstrapPic, skillsNames: 'Bootstrap', progressValue: 90 },
-    { img: WordpressPic, skillsNames: 'Wordpress', progressValue: 85 },
-    { img: GitPic, skillsNames: 'Git', progressValue: 65 },
-    { img: MobileApplicationPic, skillsNames: 'Mobile Application Design', progressValue: 85 },
-    { img: ResponsivePic, skillsNames: 'Responsive Web Design', progressValue: 95 },
+    { img: AdobeXdPic, skillsNames: 'AdobeXd', progressValue: 90, Years: 2 },
+    { img: UIUXdesignerPic, skillsNames: 'UX & UI Designer', progressValue: 90, Years: 2 },
+    { img: HtmlPic, skillsNames: 'HTML 5', progressValue: 90, Years: 5 },
+    { img: CssPic, skillsNames: 'CSS 3', progressValue: 80, Years: 5 },
+    { img: PhotoshopPic, skillsNames: 'Photoshop', progressValue: 70, Years: 5 },
+    { img: MaterialUI, skillsNames: 'Material UI', progressValue: 80, Years: 2 },
+    { img: ReactPic, skillsNames: 'React', progressValue: 75, Years: 2 },
+    { img: SassPic, skillsNames: 'Sass', progressValue: 80, Years: 1 },
+    { img: BootstrapPic, skillsNames: 'Bootstrap', progressValue: 90, Years: 5 },
+    { img: WordpressPic, skillsNames: 'Wordpress', progressValue: 85, Years: 2 },
+    { img: JsPic, skillsNames: 'javascript', progressValue: 55, Years: 1 },
+    { img: GitPic, skillsNames: 'Git', progressValue: 65, Years: 52 },
+    { img: MobileApplicationPic, skillsNames: 'Mobile Application Design', progressValue: 85, Years: 2 },
+    { img: ResponsivePic, skillsNames: 'Responsive Web Design', progressValue: 95, Years: 5 },
 
 ];
 
@@ -46,6 +48,7 @@ export default function SkillsList(props) {
                     <div className="skills_experiences_info flex_grow1">
                         <h3>{skillsInfo.skillsNames}</h3>
                         <ProgressBar setValue={skillsInfo.progressValue} />
+                        <h5>{skillsInfo.Years} Years Work Experience</h5>
                     </div>
                 </div>
             ))}

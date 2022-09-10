@@ -1,31 +1,28 @@
 import React from "react";
 import './education.scss';
 import ViewMoreButton from "../materialUI/Button/viewMoreButton";
+
+const educationInfo = [
+    { degree: "Bachelor Arts (B. A General)", university: "The University Of Burdwan (B.U)", year: 2012, },
+    {
+        degree: "Higher Secondary Education (H.S Madhyamik)", university: "West Bengal Council of Higher Secondary Education (W.B.C.H.S.E)West Bengal, Hooghly", year: 2009,
+    },
+    {
+        degree: "Secondary Education (Madhyamik)", university: "West Bengal Board of Secondary Education (W.B.B.S.E)West Bengal, Hooghly", year: 2007,
+    },
+]
 export default function Education() {
     return (
         <div className="education">
-            <div className="education_nfo">
-                <div className="nfo_item">
-                    <h5>Bachelor Arts (B. A General)</h5>
-                    <p>The University Of Burdwan (B.U)</p>
+            {educationInfo.map((educationInfo) => (
+                <div className="education_nfo">
+                    <div className="nfo_item">
+                        <h5>{educationInfo.degree}</h5>
+                        <p>{educationInfo.university}</p>
+                    </div>
+                    <h5>Passing year | {educationInfo.year}</h5>
                 </div>
-                <h5>Passing year | 2012</h5>
-            </div>
-            <div className="education_nfo">
-                <div className="nfo_item">
-                    <h5>Higher Secondary Education (H.S Madhyamik)</h5>
-                    <p>The University Of Burdwan (B.U)</p>
-                </div>
-                <h5>Passing year | 2009</h5>
-            </div>
-            <div className="education_nfo">
-                <div className="nfo_item">
-                    <h5>Secondary Education (Madhyamik)</h5>
-                    <p>West Bengal Board of Secondary Education (W.B.B.S.E)
-                        West Bengal, Hooghly</p>
-                </div>
-                <h5>Passing year | 2007</h5>
-            </div>
+            ))}
             <ViewMoreButton />
         </div>
     );

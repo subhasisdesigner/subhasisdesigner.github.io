@@ -13,10 +13,10 @@ const moreSkills = [
     { skillsPic: PhotoshopPic, title: 'Photoshop' },
     { skillsPic: MaterialPic, title: 'Material UI' },
     { skillsPic: ReactPic, title: 'React js' },
-    { skillsPic: BootstrapPic, title: 'Bootstrap' },
-    { skillsPic: JsPic, title: 'javascript' },
-    { skillsPic: WordpressPic, title: 'WordPress' },
     { skillsPic: SassPic, title: 'Sass' },
+    { skillsPic: BootstrapPic, title: 'Bootstrap' },
+    { skillsPic: WordpressPic, title: 'WordPress' },
+    { skillsPic: JsPic, title: 'javascript' },
 
 ]
 
@@ -31,7 +31,7 @@ export default function MoreSkills() {
                 ))}
                 <div className="skills_item">
                     <CardActionArea className="more_skills_btn">
-                        <h3>25+</h3>
+                        <h3>2+</h3>
                         <p>More</p>
                     </CardActionArea>
                 </div>
