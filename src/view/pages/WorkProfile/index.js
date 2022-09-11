@@ -82,7 +82,7 @@ export default function WorkProfile() {
                   <h3>Description :</h3>
                   <p>This is my portfolio work, open source, React material ui based theme perfect for quickly creating dashboards and web applications. It's modern design style with subtle shadows and a card-based layout could be described as flat material, and is inspired by</p>
                 </div>
-                <div className="mt_40">
+                {/* <div className="mt_40">
                   <h3>Features :</h3>
                   <div className="features_info">
                     <ListItem alignItems="flex-start">
@@ -102,7 +102,7 @@ export default function WorkProfile() {
                       <h5>— I'll be in your neighborhood doing errands this…</h5>
                     </ListItem>
                   </div>
-                </div>
+                </div> */}
               </div>
               <div className="use_body">
                 <h3>Use On :</h3>
@@ -114,7 +114,7 @@ export default function WorkProfile() {
                     primary="Adobe XD (for Layout)"
                   />
                 </ListItem>
-                <ListItem alignItems="center">
+                {/* <ListItem alignItems="center">
                   <ListItemAvatar>
                     <Avatar alt="Remy Sharp" src="/static/images/avatar/1.jpg" />
                   </ListItemAvatar>
@@ -129,7 +129,7 @@ export default function WorkProfile() {
                   <ListItemText
                     primary="Brunch this weekend?"
                   />
-                </ListItem>
+                </ListItem> */}
               </div>
             </div>
           </div>
