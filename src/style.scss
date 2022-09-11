@@ -115,7 +115,15 @@ img {
     display: none;
 }
 
+.d_flex_gap {
+    @include flex-box-gap;
+}
 
+p {
+    font-size: 1em;
+    margin-bottom: 7px;
+    color: #535252;
+}
 
 .state_pending .copy_right {
     padding: $fifteen;

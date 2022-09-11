@@ -9,6 +9,11 @@
     align-items: variable.$align-center;
 }
 
+@mixin flex-box-gap {
+    @include flex-box;
+    gap: 10px;
+}
+
 @mixin flex-box-space {
     @include flex-box;
     justify-content: space-between;

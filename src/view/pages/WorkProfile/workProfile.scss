@@ -69,3 +69,70 @@
         content: none;
     }
 }
+
+.designer_pic {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.designer_info {
+    & p {
+        font-size: 0.8em;
+        color: #4e4d4d;
+    }
+}
+
+.project_details_header {
+    @include flex-box-space;
+}
+
+.project_pic_body {
+    margin: 30px 0;
+
+    & img {
+        border: 3px solid white;
+        border-radius: 20px;
+    }
+}
+
+.design_info_body {
+    display: grid;
+    grid-gap: 25px;
+    grid-template-columns: 65% auto;
+
+    & .description {
+        & p {
+            margin-top: 15px;
+        }
+    }
+}
+
+.features_info {
+    display: grid;
+    grid-gap: 7px;
+    grid-template-columns: 50% auto;
+    margin-top: 10px;
+
+    & li {
+        padding: 0px;
+        @include flex-box-gap;
+        align-items: flex-start;
+
+        & i {
+            color: #2497FB;
+        }
+    }
+}
+
+.use_body {
+    padding: 15px;
+    background: white;
+    border-radius: 15px;
+
+    & li {
+        padding: 0px;
+        margin-top: 15px;
+    }
+}

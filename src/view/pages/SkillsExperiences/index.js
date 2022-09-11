@@ -60,7 +60,7 @@ export default function SkillsExperiences() {
           </div>
         </Grid>
       </Grid >
-    </div >
+    </div>
   );
 }
 
