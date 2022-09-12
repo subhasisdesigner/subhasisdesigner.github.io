@@ -32,31 +32,6 @@ export default function MainView(props) {
         sx={{ width: { md: drawerWidth }, flexShrink: { md: 0 } }}
         aria-label="mailbox folders"
       >
-        {/*start AppBar */}
-
-
-        {/* <CardActionArea
-          className="menu_bar"
-          color="inherit"
-          aria-label="open drawer"
-          edge="start"
-          position="fixed"
-          onClick={handleDrawerToggle}
-          sx={{
-            mr: 2, display: { md: 'none' },
-            width: { md: `calc(100% - ${drawerWidth}px)` },
-            ml: { md: `${drawerWidth}px` },
-          }}
-        >
-          <MenuIcon />
-        </CardActionArea> */}
-        {/* <AppBarMenu
-          sx={{
-            mr: 2, display: { md: 'none' },
-            width: { md: `calc(100% - ${drawerWidth}px)` },
-            ml: { md: `${drawerWidth}px` },
-          }}
-        /> */}
         <div className="appbar_body" sx={{
           mr: 2, display: { md: 'none' },
           width: { md: `calc(100% - ${drawerWidth}px)` },

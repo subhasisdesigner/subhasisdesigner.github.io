@@ -6,7 +6,20 @@ import loadData from "../../../Config/LoadingBar"
 import ProfilePics from "../../../asset/Images/Profile.png";
 import ProfileInfo from "../../component/profileInfo";
 
-import './education.scss'
+import './education.scss';
+
+const educationInfo = [
+  { degree: "Bachelor Arts", shortName: "B.A General", university: "The University Of Burdwan (B.U)", year: "2012" },
+  { degree: "Higher Secondary Education", shortName: "H.S", university: "West Bengal Council of Higher Secondary Education (W.B.C.H.S.E) West Bengal, Hooghly", year: "2009" },
+  { degree: "Secondary Education", shortName: "Madhyamik", university: "West Bengal Board of Secondary Education (W.B.B.S.E) West Bengal, Hooghly", year: "2007" },
+]
+
+const professional = [
+  { degree: "Production & Manufacturing", university: "Basic Training Centre (Chemical) Hooghly (Government Of West Bengal) West Bengal, Hooghly", year: "2007", year2: "2007" },
+  { degree: "Hospitality", university: "Bosco Academy for Skills and Employment West Bengal, Hooghly", year: "2013", year2: "" },
+
+]
+
 export default function Education() {
   const [state, setState] = useState();
   const loadingContext = useContext(LoadingContext);
@@ -43,39 +56,19 @@ export default function Education() {
               <div className="work_profile_body">
                 <h2 className="work_profile_text">Education</h2>
                 <div className="education_track">
-                  <div className="d_flex gap_20 track_item">
-                    <h3 className="track_years">2012</h3>
-                    <div className="track_status">
-                      <span className="dot"></span>
-                      <span className="line"></span>
+                  {educationInfo.map((educationInfo) => (
+                    <div className="d_flex gap_20 track_item">
+                      <h3 className="track_years">{educationInfo.year}</h3>
+                      <div className="track_status">
+                        <span className="dot"></span>
+                        <span className="line"></span>
+                      </div>
+                      <div className="track_info">
+                        <h3>{educationInfo.degree} <span>({educationInfo.shortName})</span></h3>
+                        <p>{educationInfo.university}</p>
+                      </div>
                     </div>
-                    <div className="track_info">
-                      <h3>Bachelor Arts <span>(B.A General)</span></h3>
-                      <p>The University Of Burdwan (B.U)</p>
-                    </div>
-                  </div>
-                  <div className="d_flex gap_20 track_item">
-                    <h3 className="track_years">2009</h3>
-                    <div className="track_status">
-                      <span className="dot"></span>
-                      <span className="line"></span>
-                    </div>
-                    <div className="track_info">
-                      <h3>Higher Secondary Education <span>(H.S)</span></h3>
-                      <p>West Bengal Council of Higher Secondary Education (W.B.C.H.S.E) West Bengal, Hooghly</p>
-                    </div>
-                  </div>
-                  <div className="d_flex gap_20 track_item">
-                    <h3 className="track_years">2007</h3>
-                    <div className="track_status">
-                      <span className="dot"></span>
-                      <span className="line"></span>
-                    </div>
-                    <div className="track_info">
-                      <h3>Secondary Education <span>(Madhyamik)</span></h3>
-                      <p>West Bengal Board of Secondary Education (W.B.B.S.E) West Bengal, Hooghly</p>
-                    </div>
-                  </div>
+                  ))}
                 </div>
               </div>
             </Grid>
@@ -87,33 +80,22 @@ export default function Education() {
           <div className="work_profile_body">
             <h2 className="work_profile_text">Professional Qualifications</h2>
             <div className="education_track">
-              <div className="d_flex gap_20 track_item">
-                <div>
-                  <h3 className="track_years">2011</h3>
-                  <h4>2012</h4>
+              {professional.map((professional) => (
+                <div className="d_flex gap_20 track_item">
+                  <div>
+                    <h3 className="track_years">{professional.year}</h3>
+                    <h4>{professional.year2}</h4>
+                  </div>
+                  <div className="track_status">
+                    <span className="dot"></span>
+                    <span className="line"></span>
+                  </div>
+                  <div className="track_info">
+                    <h3>{professional.degree}</h3>
+                    <p>{professional.university}</p>
+                  </div>
                 </div>
-                <div className="track_status">
-                  <span className="dot"></span>
-                  <span className="line"></span>
-                </div>
-                <div className="track_info">
-                  <h3>Production & Manufacturing</h3>
-                  <p>Basic Training Centre (Chemical) Hooghly (Government Of West Bengal)
-                    West Bengal, Hooghly</p>
-                </div>
-              </div>
-              <div className="d_flex gap_20 track_item">
-                <h3 className="track_years">2013</h3>
-                <div className="track_status">
-                  <span className="dot"></span>
-                  <span className="line"></span>
-                </div>
-                <div className="track_info">
-                  <h3>Hospitality</h3>
-                  <p>Bosco Academy for Skills and Employment
-                    West Bengal, Hooghly</p>
-                </div>
-              </div>
+              ))}
             </div>
           </div>
         </Grid>

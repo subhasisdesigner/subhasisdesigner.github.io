@@ -130,9 +130,11 @@ export default function ProjectProfile(props) {
                     </div>
                 ))
             }
-            {setClass ? null : <div className="techwelfare_project_body">
-                <TechwelfareProjrct />
-            </div>}
+            {setClass ? null :
+                <div className="techwelfare_project_body">
+                    <TechwelfareProjrct />
+                </div>
+            }
         </>
     );
 }
