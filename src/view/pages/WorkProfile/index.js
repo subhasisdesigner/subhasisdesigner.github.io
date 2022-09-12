@@ -17,6 +17,12 @@ import profilePic from "../../../asset/Images/subhasis_santra.jpg"
 import myProjectPic from "../../../asset/Images/myProject.png";
 
 import xd from "../../../asset/Images/skills/xd.png";
+import photoshop from "../../../asset/Images/skills/photoshop.png";
+import react from "../../../asset/Images/skills/react.png";
+import materialUI from "../../../asset/Images/skills/material-ui.png";
+import html from "../../../asset/Images/skills/html.png";
+import sass from "../../../asset/Images/skills/sass.png";
+import git from "../../../asset/Images/skills/git.png";
 
 
 export default function WorkProfile() {
@@ -82,27 +88,45 @@ export default function WorkProfile() {
                   <h3>Description :</h3>
                   <p>This is my portfolio work, open source, React material ui based theme perfect for quickly creating dashboards and web applications. It's modern design style with subtle shadows and a card-based layout could be described as flat material, and is inspired by</p>
                 </div>
-                {/* <div className="mt_40">
+                <div className="mt_40">
                   <h3>Features :</h3>
                   <div className="features_info">
                     <ListItem alignItems="flex-start">
                       <i class="ri-checkbox-circle-fill"></i>
-                      <h5>— I'll be in your neighborhood doing errands this…</h5>
+                      <h5>A modern, material design inspired layout</h5>
                     </ListItem>
                     <ListItem alignItems="flex-start">
                       <i class="ri-checkbox-circle-fill"></i>
-                      <h5>— I'll be in your neighborhood doing errands this…</h5>
+                      <h5>Layout built using (Adobe XD)</h5>
                     </ListItem>
                     <ListItem alignItems="flex-start">
                       <i class="ri-checkbox-circle-fill"></i>
-                      <h5>— I'll be in your neighborhood doing errands this…</h5>
+                      <h5>Fully Responsive layout</h5>
                     </ListItem>
                     <ListItem alignItems="flex-start">
                       <i class="ri-checkbox-circle-fill"></i>
-                      <h5>— I'll be in your neighborhood doing errands this…</h5>
+                      <h5>Cross-browser tested & optimized</h5>
+                    </ListItem>
+                    <ListItem alignItems="flex-start">
+                      <i class="ri-checkbox-circle-fill"></i>
+                      <h5>Based on React or Material ui</h5>
+                    </ListItem>
+                    <ListItem alignItems="flex-start">
+                      <i class="ri-checkbox-circle-fill"></i>
+                      <h5>Gulp based workflow</h5>
+                    </ListItem>
+                    <ListItem alignItems="flex-start">
+                      <i class="ri-checkbox-circle-fill"></i>
+                      <h5>Workflow (Tools) – Automate your time-consuming
+                        tasks such as compiling SASS, minify CSS, JavaScript
+                        files and more.</h5>
+                    </ListItem>
+                    <ListItem alignItems="flex-start">
+                      <i class="ri-checkbox-circle-fill"></i>
+                      <h5>Modular markup based on Cards & Utility classes</h5>
                     </ListItem>
                   </div>
-                </div> */}
+                </div>
               </div>
               <div className="use_body">
                 <h3>Use On :</h3>
@@ -114,22 +138,55 @@ export default function WorkProfile() {
                     primary="Adobe XD (for Layout)"
                   />
                 </ListItem>
-                {/* <ListItem alignItems="center">
+                <ListItem alignItems="center">
                   <ListItemAvatar>
-                    <Avatar alt="Remy Sharp" src="/static/images/avatar/1.jpg" />
+                    <Avatar alt="Remy Sharp" src={photoshop} />
                   </ListItemAvatar>
                   <ListItemText
-                    primary="Brunch this weekend?"
+                    primary="Photoshop"
                   />
                 </ListItem>
                 <ListItem alignItems="center">
                   <ListItemAvatar>
-                    <Avatar alt="Remy Sharp" src="/static/images/avatar/1.jpg" />
+                    <Avatar alt="Remy Sharp" src={react} />
                   </ListItemAvatar>
                   <ListItemText
-                    primary="Brunch this weekend?"
+                    primary="React"
                   />
-                </ListItem> */}
+                </ListItem>
+                <ListItem alignItems="center">
+                  <ListItemAvatar>
+                    <Avatar alt="Remy Sharp" src={materialUI} />
+                  </ListItemAvatar>
+                  <ListItemText
+                    primary="Material UI"
+                  />
+                </ListItem>
+                <ListItem alignItems="center">
+                  <ListItemAvatar>
+                    <Avatar alt="Remy Sharp" src={html} />
+                  </ListItemAvatar>
+                  <ListItemText
+                    primary="HTML-5"
+                  />
+                </ListItem>
+                <ListItem alignItems="center">
+                  <ListItemAvatar>
+                    <Avatar alt="Remy Sharp" src={sass} />
+                  </ListItemAvatar>
+                  <ListItemText
+                    primary="Sass ( scss )"
+                  />
+                </ListItem>
+                <ListItem alignItems="center">
+                  <ListItemAvatar>
+                    <Avatar alt="Remy Sharp" src={git} />
+                  </ListItemAvatar>
+                  <ListItemText
+                    primary="Git"
+                  />
+                </ListItem>
+
               </div>
             </div>
           </div>

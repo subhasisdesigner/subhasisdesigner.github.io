@@ -14,7 +14,7 @@ export default function Experiences() {
                     </div>
                     <div className="experiences_info d_flex flex_grow1">
                         <div className="flex_grow1">
-                            <div className="d_flex align_items gap_20">
+                            <div className="company_info d_flex align_items gap_20">
                                 <h3>Senrysa Technologies (P) Ltd</h3>
                                 <h5 className="web_designer d_flex align_items"><i className="ri-checkbox-blank-circle-fill"></i> Web Designer</h5>
                             </div>
@@ -38,7 +38,7 @@ export default function Experiences() {
                     </div>
                     <div className="experiences_info d_flex flex_grow1">
                         <div className="flex_grow1">
-                            <div className="d_flex align_items gap_20">
+                            <div className="company_info d_flex align_items gap_20">
                                 <h3>Techwelfare</h3>
                                 <h5 className="web_designer d_flex align_items"><i className="ri-checkbox-blank-circle-fill"></i> Web Designer</h5>
                             </div>

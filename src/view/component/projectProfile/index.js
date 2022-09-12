@@ -143,25 +143,27 @@ function TechwelfareProjrct() {
             <div className="work_profile">
                 <h4>03. Techwelfare</h4>
             </div>
-            {
-                techwelfareProjrct.map((techwelfareProjrct) => (
-                    <div className="work_profile">
-                        <CardActionArea className="project_body">
-                            <div className="project_pic">
-                                <img src={techwelfareProjrct.projectImg} />
-                            </div>
-                            <div className="project_info">
-                                <h3>{techwelfareProjrct.projectName}</h3>
-                                <p>{techwelfareProjrct.useLibrary}</p>
-                                <div className="view_link">
-                                    <span><i class="ri-links-line"></i>Link</span>
-                                    <span>View details<i class="ri-arrow-right-line"></i></span>
+            <div className="for_mobile">
+                {
+                    techwelfareProjrct.map((techwelfareProjrct) => (
+                        <div className="work_profile">
+                            <CardActionArea className="project_body">
+                                <div className="project_pic">
+                                    <img src={techwelfareProjrct.projectImg} />
                                 </div>
-                            </div>
-                        </CardActionArea>
-                    </div>
-                ))
-            }
+                                <div className="project_info">
+                                    <h3>{techwelfareProjrct.projectName}</h3>
+                                    <p>{techwelfareProjrct.useLibrary}</p>
+                                    <div className="view_link">
+                                        <span><i class="ri-links-line"></i>Link</span>
+                                        <span>View details<i class="ri-arrow-right-line"></i></span>
+                                    </div>
+                                </div>
+                            </CardActionArea>
+                        </div>
+                    ))
+                }
+            </div>
         </>
     );
 }

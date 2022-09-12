@@ -4,7 +4,7 @@ import Grid from '@mui/material/Grid';
 
 import loadData from "../../../Config/LoadingBar"
 import ProfileInfo from "../../component/profileInfo";
-import ProfilePics from "../../../asset/Images/subhasis_santra.png";
+import ProfilePics from "../../../asset/Images/Profile.png";
 import Experiences from "../../component/skillsExperiences/experiences";
 import SkillsList from "../../component/skillsExperiences";
 
@@ -32,12 +32,12 @@ export default function SkillsExperiences() {
       <Grid container spacing={{ xs: 3, md: 5 }}>
         <Grid item xs={12} sm={12} md={12} lg={8} className="responsive_width_100">
           <Grid container className="align_items">
-            <Grid item xs={12} sm={12} md={12} lg={4}>
+            <Grid item xs={12} sm={12} md={12} lg={5}>
               <div className="profile_pic">
                 <img src={ProfilePics} />
               </div>
             </Grid>
-            <Grid item xs={12} sm={12} md={12} lg={8}>
+            <Grid item xs={12} sm={12} md={12} lg={7}>
               <ProfileInfo />
             </Grid>
 

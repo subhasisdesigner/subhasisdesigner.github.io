@@ -21,7 +21,7 @@ export default function MainView(props) {
   };
   const drawerWidth = 320;
   const drawer = (
-    <LeftPanel />
+    <LeftPanel handleDrawerToggle={handleDrawerToggle} />
   );
   const container = window !== undefined ? () => window().document.body : undefined;
   return (
