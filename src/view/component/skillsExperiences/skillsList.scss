@@ -1,0 +1,98 @@
+@import "../../../asset/Sass/index";
+
+.skills_experiences_body {
+    & .skills_experiences_item {
+        margin-top: $thirty;
+
+        & .skills_experiences_info {
+            & h3 {
+                margin-bottom: $ten;
+                font-size: 1.1em;
+            }
+
+            & h5 {
+                margin-top: 5px;
+                color: #2497FB;
+            }
+        }
+
+        & img {
+            border-radius: $fifty-parents;
+            object-fit: contain;
+            flex-shrink: $zero;
+            width: $fifty-five;
+            height: $fifty-five;
+            @include all-box-shadow;
+
+        }
+    }
+}
+
+.progress_body {
+    position: $position-relative;
+
+    & .progress_bar {
+        height: $ten;
+        border-radius: $ten;
+        background-color: $white;
+        @include all-box-shadow;
+
+        & .MuiLinearProgress-bar {
+            height: $ten;
+            border-radius: $ten;
+            @include progress-bar-color;
+        }
+    }
+
+    & .count {
+        width: $hundred-parents;
+        text-align: right;
+        position: $position-absolute;
+        right: $zero;
+        top: -$twenty-three;
+        font-size: $fifteen;
+        font-weight: $Bold;
+        color: #ff4d5a;
+    }
+}
+
+.more_skills_body {
+    margin-top: $thirty;
+
+    & .more_skills {
+        @include flex-box;
+
+        & .skills_item {
+            @include all-box-shadow;
+            border-radius: $fifty-parents;
+            object-fit: contain;
+            flex-shrink: $zero;
+            width: $sixty;
+            background: #e1dede;
+            height: $sixty;
+            margin-left: -$seventeen;
+            overflow: hidden;
+            border: $three solid $white;
+
+            &:first-child {
+                margin: $zero;
+            }
+
+            & .more_skills_btn {
+                @include flex-box-center;
+                height: $sixty;
+
+                & h3 {
+                    font-weight: $SemiBold  !important;
+                    margin-bottom: $two;
+                }
+
+                & p {
+                    color: $gray;
+                    font-weight: $SemiBold  !important;
+                }
+
+            }
+        }
+    }
+}
