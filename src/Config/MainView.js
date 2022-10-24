@@ -40,7 +40,7 @@ export default function MainView(props) {
           <AppBar className="appbar" position="fixed" sx={{ top: 'auto', bottom: 0 }}>
             <Toolbar className="appbar_item_body">
               <CardActionArea className="appbar_item" color="inherit">
-                <NavLink exact activeClassName="active_menu" to="/update">
+                <NavLink exact activeClassName="active_menu" to="/">
                   <div className="profile_menu">
                     <img src={BottomBarPic} alt="Subasis Santra" />
                     <i className="ri-mic-fill"></i>
@@ -48,13 +48,13 @@ export default function MainView(props) {
                 </NavLink>
               </CardActionArea>
               <CardActionArea className="appbar_item" color="inherit" aria-label="open drawer">
-                <NavLink exact className="skills" activeClassName="active_menu" to="/update/skills-experiences"><i className="ri-user-settings-fill"></i></NavLink>
+                <NavLink exact className="skills" activeClassName="active_menu" to="/skills-experiences"><i className="ri-user-settings-fill"></i></NavLink>
               </CardActionArea>
               <CardActionArea className="appbar_item" color="inherit" aria-label="open drawer">
-                <NavLink exact className="work" activeClassName="active_menu" to="/update/work-profile"><i className="fas fa-tools"></i></NavLink>
+                <NavLink exact className="work" activeClassName="active_menu" to="/work-profile"><i className="fas fa-tools"></i></NavLink>
               </CardActionArea>
               <CardActionArea className="appbar_item" color="inherit" aria-label="open drawer">
-                <NavLink exact className="contact" activeClassName="active_menu" to="/update/contact"><i className="ri-contacts-fill"></i></NavLink>
+                <NavLink exact className="contact" activeClassName="active_menu" to="/contact"><i className="ri-contacts-fill"></i></NavLink>
               </CardActionArea>
               <CardActionArea className="appbar_item" color="inherit" onClick={handleDrawerToggle}>
                 <div className="more_app">

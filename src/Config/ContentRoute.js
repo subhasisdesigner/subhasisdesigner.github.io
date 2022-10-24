@@ -11,12 +11,12 @@ import Error from '../Error';
 export default function ContentRoute() {
   return (
     <Switch>
-      <Route exact path="/update" component={LandingPage} loading />
-      <Route path="/update/skills-experiences" component={SkillsExperiences} loading />
-      <Route path="/update/work-profile" component={WorkProfile} loading />
-      <Route path="/update/education" component={Education} loading />
-      {/* <Route path="/update/qualifications" component={Qualifications} loading /> */}
-      <Route path="/update/contact" component={Contact} loading />
+      <Route exact path="/" component={LandingPage} loading />
+      <Route path="/skills-experiences" component={SkillsExperiences} loading />
+      <Route path="/work-profile" component={WorkProfile} loading />
+      <Route path="/education" component={Education} loading />
+      {/* <Route path="/qualifications" component={Qualifications} loading /> */}
+      <Route path="/contact" component={Contact} loading />
       <Route component={Error} />
     </Switch>
   );
