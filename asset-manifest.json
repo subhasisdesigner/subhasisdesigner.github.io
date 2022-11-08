@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/static/css/main.14f7a73b.css",
-    "main.js": "/static/js/main.5039e041.js",
+    "main.js": "/static/js/main.25dfa026.js",
     "static/media/theluxhome.png": "/static/media/theluxhome.970767e6c9debd3df104.png",
     "static/media/interiorDecor.png": "/static/media/interiorDecor.2a51631c2b147646dc31.png",
-    "static/media/matrimony.png": "/static/media/matrimony.550f9627d4ddd47bad09.png",
+    "static/media/matrimony.png": "/static/media/matrimony.bea93d250ab52bd05397.png",
     "static/media/eventUp.png": "/static/media/eventUp.28d091e162b08a3c867c.png",
     "static/media/freelancerson.png": "/static/media/freelancerson.509f31fca7f3ce767c60.png",
     "static/media/bhoktibhikshu.png": "/static/media/bhoktibhikshu.76dff1302c8d6cf5cd11.png",
@@ -22,25 +22,21 @@
     "static/media/myProfile.png": "/static/media/myProfile.c86b0d0990133e991b69.png",
     "static/media/svastam.png": "/static/media/svastam.11ca6d42a9cab30a87e4.png",
     "static/media/mindcrop.png": "/static/media/mindcrop.93ff315111aa92f828fb.png",
-    "static/media/tourTravel.png": "/static/media/tourTravel.443e127c9574692ce379.png",
     "static/media/coming_soon.webp": "/static/media/coming_soon.05bb99f81101a34c3c0c.webp",
     "static/media/pointjar.png": "/static/media/pointjar.bd00dcd31041dc954b61.png",
-    "static/media/currency.png": "/static/media/currency.25d49ac4216be6d234a8.png",
+    "static/media/currency.png": "/static/media/currency.ddd0e1476af2f8569b03.png",
     "static/media/Education-banner.webp": "/static/media/Education-banner.96c8a8d00c6edb4d1b82.webp",
-    "static/media/jobportal.png": "/static/media/jobportal.c7730f89cf26dfb86f2c.png",
     "static/media/dotnet.png": "/static/media/dotnet.2ce0a03d18502ebd50c6.png",
     "static/media/subhasis_santra.webp": "/static/media/subhasis_santra.7ddfb69270dcebc69281.webp",
-    "static/media/zerokelvin.png": "/static/media/zerokelvin.47283832c8e4c6cea7f8.png",
     "static/media/NDHGO-Logo.webp": "/static/media/NDHGO-Logo.e4b98d7894612c82b697.webp",
-    "static/media/mindcorp.png": "/static/media/mindcorp.b1d0ca0568a435e02e2c.png",
     "static/media/techwelfare_logo.webp": "/static/media/techwelfare_logo.281eaa9ae19eb13942c2.webp",
     "static/media/senrysa_logo.webp": "/static/media/senrysa_logo.16ff50bc784de155fa23.webp",
     "index.html": "/index.html",
     "main.14f7a73b.css.map": "/static/css/main.14f7a73b.css.map",
-    "main.5039e041.js.map": "/static/js/main.5039e041.js.map"
+    "main.25dfa026.js.map": "/static/js/main.25dfa026.js.map"
   },
   "entrypoints": [
     "static/css/main.14f7a73b.css",
-    "static/js/main.5039e041.js"
+    "static/js/main.25dfa026.js"
   ]
 }
