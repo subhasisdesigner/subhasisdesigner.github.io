@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.38ca371a.css",
-    "main.js": "/static/js/main.d7c8619e.js",
+    "main.css": "/static/css/main.7b001808.css",
+    "main.js": "/static/js/main.3d6f6657.js",
     "static/media/locaton.png": "/static/media/locaton.96b6b8a63c089e10515c.png",
     "static/media/theluxhome.png": "/static/media/theluxhome.970767e6c9debd3df104.png",
     "static/media/interiorDecor.png": "/static/media/interiorDecor.2a51631c2b147646dc31.png",
@@ -32,11 +32,11 @@
     "static/media/techwelfare_logo.webp": "/static/media/techwelfare_logo.281eaa9ae19eb13942c2.webp",
     "static/media/senrysa_logo.webp": "/static/media/senrysa_logo.16ff50bc784de155fa23.webp",
     "index.html": "/index.html",
-    "main.38ca371a.css.map": "/static/css/main.38ca371a.css.map",
-    "main.d7c8619e.js.map": "/static/js/main.d7c8619e.js.map"
+    "main.7b001808.css.map": "/static/css/main.7b001808.css.map",
+    "main.3d6f6657.js.map": "/static/js/main.3d6f6657.js.map"
   },
   "entrypoints": [
-    "static/css/main.38ca371a.css",
-    "static/js/main.d7c8619e.js"
+    "static/css/main.7b001808.css",
+    "static/js/main.3d6f6657.js"
   ]
 }
